@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    fiva (0.1.0)
+      pastel (~> 0.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    equatable (0.5.0)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    rake (10.5.0)
+    tty-color (0.4.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  fiva!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.2
